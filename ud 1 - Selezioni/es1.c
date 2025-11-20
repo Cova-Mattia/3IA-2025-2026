@@ -1,17 +1,28 @@
 #include <stdio.h>
-int main (){
-    printf("Ciao\n");
-    return (0);    
+int main(){
+    int num1;
 
+    while (num1<10)
+    {
+        num1=num1+1;/* code */
+    }
+    
+    while (num1 < 50){
+        
+        if (num1%2 == 0) {
+
+        }
+        else if (num1%8 == 0) {
+                printf("%d", num1);
+            }
+         else {
+
+        num1=num1+1;
+    }}
+
+
+
+
+
+    return (0);
 }
-/* 1. gcc nomefile.c -> compila il file e può avere 2 file
-        1-> tutto bene viene creato il file a.out (eseguibile)
-        2-> ci sono errori di compilazione (sintassi)
-    2. ./a.out -> esegue il file compilato
-
-    è poossibile unificare i 2 comandi in uno solo:
-    gcc nomefile.c && ./a.out
-
-    ls -> elenca i file nella cartella corrente
-    cd 'nomecartella'/ -> esegue il programma nella cartella specificata
-*/
